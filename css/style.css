@@ -198,6 +198,20 @@ body {
   height: 101px;
   text-align: left;
 }
+.img-frame {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news img {
+  width: 70px;
+  height: 70;
+}
 .crew {
   min-width: 1200px;
   margin: auto;

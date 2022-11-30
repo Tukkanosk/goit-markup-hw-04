@@ -22,7 +22,13 @@
           <li><a class="subpages" href="">Kontakt</a></li>
         </ul>
         <div class="top-box-contact">
-          <a class="contact" href="mailto:info@example.com"><img src="/images/envelope.svg"/> info@example.com</a>
+          <a class="contact" href="mailto:info@example.com"><svg class="head-icon" width="12" height="16">
+            <use href="/images/icons.svg#envelope"></use>
+          </svg> info@example.com</a>
+          <!-- <svg class="" width="" height="">
+                <use href="/images/icons.svg#"></use>
+              </svg>
+            ^Komenda dla ikon z sprite-->
           <a class="contact" href="tel:+48111111111"><img src="images/smartphone.svg" /> +48 111 111 111</a></div
         >
       </section>
@@ -37,6 +43,8 @@
         <section class="section">
           <ul class="news">
             <li>
+              <div class="img-frame"><svg class="news-img" width="70"
+                height="70"> <use href="/images/antenna 1.svg" ></use></svg></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -44,6 +52,7 @@
               </p>
             </li>
             <li>
+              <div class="img-frame"><img src="/images/clock 1.svg" class="news-img"/></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -51,6 +60,7 @@
               </p>
             </li>
             <li>
+              <div class="img-frame"><img src="/images/diagram 1.svg" class="news-img"/></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -58,6 +68,7 @@
               </p>
             </li>
             <li>
+              <div class="img-frame"><img src="/images/astronaut 1.svg" class="news-img"/></div>
               <h3>LOREM IPSUM</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -186,7 +197,7 @@
       <div class="big-wrap">
       <div class="container">
       <ul class="f-data">
-        <li><a class="name-logo" href=""><span class="name-logo-effect-f">Web</span><span class="name-logo-effect-sec">Studio</span></a></li>
+        <li><a class="name-logo" href="#"><span class="name-logo-effect-f">Web</span><span class="name-logo-effect-sec">Studio</span></a></li>
         <li>
           <address class="home-location">
             m. Warszawa, Aleje Jerozolimskie 21
