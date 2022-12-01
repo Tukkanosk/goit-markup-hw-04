@@ -20,7 +20,7 @@ svg {
 .big-box {
   text-align: center;
   color: #ffffff;
-  background: url("/images/bckgrnd_img.jpg");
+  background-image: url("/images/bckgrnd_img.jpg");
   background-size: cover;
   background-position: center;
   height: 600px;
