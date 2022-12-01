@@ -23,7 +23,7 @@ svg {
   background-image: radial-gradient(
       circle at center,
       #2f303a66 50%,
-      #3842b366 100%
+      #2f303a66 100%
     ),
     url("/images/bckgrnd_img.jpg");
   background-size: cover;
