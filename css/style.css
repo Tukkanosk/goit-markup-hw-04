@@ -93,6 +93,10 @@ svg {
   text-decoration: none;
   color: #757575;
 }
+.contact svg:hover,
+.contact svg:active {
+  fill: #2196f3;
+}
 .big-wrap {
   width: 1600px;
   display: flex;
