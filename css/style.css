@@ -13,6 +13,7 @@ body {
   align-items: center;
   height: 80px;
 }
+
 svg {
   fill: #afb1b8;
 }
@@ -153,6 +154,10 @@ svg {
   justify-content: center;
   gap: 8px;
 }
+.button-list li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .filter-button {
   font-size: 16px;
   font-weight: 500;
@@ -193,6 +198,10 @@ svg {
 .products li {
   background-color: #fff;
   border: 1px solid #eee;
+}
+.products li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .news p {
   font-weight: 400;
@@ -255,8 +264,8 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70px;
-  width: 70px;
+  height: 44px;
+  width: 44px;
 }
 .social-icon:hover,
 .social-icon:active,
