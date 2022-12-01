@@ -13,7 +13,9 @@ body {
   align-items: center;
   height: 80px;
 }
-
+svg {
+  fill: #afb1b8;
+}
 .big-box {
   text-align: center;
   color: #ffffff;
@@ -244,30 +246,29 @@ body {
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
-  gap: 10px;
 }
 .social-icon {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  align-items: center;
+  height: 70px;
+  width: 70px;
 }
 .social-icon:hover,
 .social-icon:active {
   background-color: #2196f3;
   border-radius: 50%;
+  fill: #fff;
 }
 .social-icon:hover img,
 .social-icon:active img {
   fill: #fff;
 }
-.logos-ha:hover,
-.logos-ha:active {
+.clients-logo:hover,
+.clients-logo:active {
   border-color: #2196f3;
 }
-.logos-ha:hover img,
-.logos-ha:active img {
+.clients-logo svg:hover {
   fill: #2196f3;
 }
 .clients {
